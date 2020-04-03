@@ -1,16 +1,38 @@
-body {
-	background-color: white
-}
-
 h1 {
-	color: black
-	text-align: center;
+	background-color: black;
+	color: rgb(75, 213, 238);
+	font-weight: 400;
 }
 
-.bio {
-	color: black
+.nav-bar {
+	display: flex;
+	background-color: gray;
+}
+
+.tab {
+	padding: 10px;
+}
+
+.main-contents {
+	display: flex;
+	align-content: stretch;
 }
 
 .img-with-text {
-	text-align: justify
+	display: inline-block;
+	width: 50%;
 }
+/*img {
+	width: 65%;
+	float: left;
+}*/
+/*.caption {
+	color: gray;
+	text-align: center;
+	font-style: italic;
+}*/
+
+.bio {
+
+}
+
