@@ -15,24 +15,24 @@ h1 {
 
 .main-contents {
 	display: flex;
-	align-content: stretch;
+	padding-top: 20px;
 }
 
-.img-with-text {
-	display: inline-block;
-	width: 50%;
+img {
+	width: 500px;
 }
-/*img {
-	width: 65%;
-	float: left;
-}*/
-/*.caption {
+
+.text {
 	color: gray;
-	text-align: center;
 	font-style: italic;
-}*/
+}
 
 .bio {
-
+	padding-left: 20px;
+	font-size: 150%;
+	line-height: 1.5;
 }
 
+p {
+	margin: 0;
+}
