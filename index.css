@@ -1,16 +1,38 @@
-body {
-	background-color: white
+h1 {
+	background-color: black;
+	color: rgb(75, 213, 238);
+	font-weight: 400;
 }
 
-h1 {
-	color: black
-	text-align: center;
+.nav-bar {
+	display: flex;
+	background-color: gray;
+}
+
+.tab {
+	padding: 10px;
+}
+
+.main-contents {
+	display: flex;
+	padding-top: 20px;
+}
+
+img {
+	width: 500px;
+}
+
+.text {
+	color: gray;
+	font-style: italic;
 }
 
 .bio {
-	color: black
+	padding-left: 20px;
+	font-size: 150%;
+	line-height: 1.5;
 }
 
-.img-with-text {
-	text-align: justify
+p {
+	margin: 0;
 }
