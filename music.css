@@ -1,0 +1,32 @@
+h1 {
+	background-color: black;
+	color: rgb(75, 213, 238);
+	font-weight: 400;
+}
+
+p {
+	font-style: italic;
+	font-weight: bold;
+	font-size: large;
+	margin: 0;
+	margin-left: 20px;
+}
+
+.nav-bar {
+	display: flex;
+	background-color: gray;
+}
+
+.tab {
+	padding: 10px;
+}
+
+.row {
+	display: flex;
+	padding: 10px;
+}
+
+img {
+	width: 200px;
+	float: left;
+}
