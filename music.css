@@ -4,6 +4,14 @@ h1 {
 	font-weight: 400;
 }
 
+p {
+	font-style: italic;
+	font-weight: bold;
+	font-size: large;
+	margin: 0;
+	margin-left: 20px;
+}
+
 .nav-bar {
 	display: flex;
 	background-color: gray;
@@ -14,15 +22,11 @@ h1 {
 }
 
 .row {
-    display: flex;
-}
-
-.column {
-    float: left;
-    width:20%;
-    padding: 10px;
+	display: flex;
+	padding: 10px;
 }
 
 img {
-    width: 250px;
+	width: 200px;
+	float: left;
 }
