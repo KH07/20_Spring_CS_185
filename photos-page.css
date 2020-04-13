@@ -18,21 +18,18 @@ h1 {
     font-style: italic;
 }
 
-.row {
-    display: flex;
-}
-
-.column {
-    float: left;
-    width: 33.33%;
-    padding: 10px;
+.photos-grid {
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 20px;
+    text-align: center;
 }
 
 img {
-    width: 400px;
+    width:90%;
 }
 
 figcaption {
-    text-align: left;
+    text-align: center;
 }
-

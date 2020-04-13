@@ -24,5 +24,6 @@ h1 {
 }
 
 img {
-    width: 300px;
+	width: 300px;
+	alt: "IMAGE LOAD FAILED, PLEASE REFRESH";
 }
