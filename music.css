@@ -21,7 +21,15 @@ p {
 	padding: 10px;
 }
 
-.row {
+.album-grid {
+	display: grid;
+	margin-top: 20px;
+	grid-template-columns: auto;
+	grid-row-gap: 20px;
+	text-align: left;
+}
+
+.album {
 	display: flex;
 	padding: 10px;
 }
@@ -29,4 +37,5 @@ p {
 img {
 	width: 200px;
 	float: left;
+	alt: "IMAGE LOAD FAILED, PLEASE REFRESH";
 }
