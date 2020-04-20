@@ -16,27 +16,17 @@ h1 {
 .ps4-games-grid {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    grid-row-gap: 20px;
-}
-
-.ps4-game {
-    float: left;
-    width: 25%;
-    padding: 10px;
+	grid-column-gap: 20px;
+	grid-row-gap: 20px;
+	justify-items: center;
+	align-items: center;
 }
 
 .ns-games-grid {
 	display: grid;
-	grid-template-columns: auto auto auto auto auto;
+	grid-template-columns: auto auto auto auto;
+	grid-column-gap: 20px;
 	grid-row-gap: 20px;
-}
-
-.ns-game {
-	float: left;
-	width: 20%;
-}
-
-img {
-	width: 300px;
-	alt: "IMAGE LOAD FAILED, PLEASE REFRESH";
+	justify-items: center;
+	align-items: center;
 }
