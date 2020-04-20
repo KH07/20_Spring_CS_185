@@ -4,17 +4,6 @@ h1 {
 	font-weight: 400;
 }
 
-.nav-bar {
-	display: flex;
-	background-color: gray;
-}
-
-.tab {
-	justify-content: space-around;
-	width: 25%;
-	padding: 10px;
-}
-
 .main-contents {
 	display: flex;
 	padding-top: 20px;
