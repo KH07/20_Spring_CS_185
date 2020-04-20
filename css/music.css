@@ -11,16 +11,6 @@ p {
 	margin: 0;
 	margin-left: 20px;
 }
-
-.nav-bar {
-	display: flex;
-	background-color: gray;
-}
-
-.tab {
-	padding: 10px;
-}
-
 .album-grid {
 	display: grid;
 	margin-top: 20px;
