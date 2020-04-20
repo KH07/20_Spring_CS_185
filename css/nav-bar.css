@@ -1,0 +1,10 @@
+.nav-bar {
+	display: flex;
+	background-color: gray;
+}
+
+.tab {
+	justify-content: space-around;
+	width: 25%;
+	padding: 10px;
+}

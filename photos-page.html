@@ -3,7 +3,10 @@
 <head>
     <title>Photos</title>
 	<link rel="stylesheet" type="text/css" href="css/photos-page.css">
+	<link rel="stylesheet" type="text/css" href="css/nav-bar.css">
 	<link rel="stylesheet" type="text/css" href="css/scrollButton.css">
+	<link rel="stylesheet" type="text/css" href="css/enlargeImage.css">
+	<script src="js/jquery-3.5.0.js"></script>
 	<link rel="shortcut icon" type="image/x-icon" href="images/photos-page-icon.png">
 </head>
 
@@ -30,34 +33,49 @@
 
 	<div class="photos-grid">
 		<div class="column">
-			<img src="images/photos/san-diego.jpeg" oneclick="openModal" class="hover-shadow">
-			<figcaption class="text">La Jolla coast, March 11, 2017</figcaption>
+			<img class="myImg"
+			src="images/photos/san-diego.jpeg"
+			alt="La Jolla coast, March 11, 2017">
 		</div>
 		<div class="column">
-			<img src="images/photos/singapore-zoo.jpeg">
-			<figcaption class="text">Singapore Zoo, October 7, 2017</figcaption>
+			<img class="myImg"
+			src="images/photos/singapore-zoo.jpeg"
+			alt="Singapore Zoo, October 7, 2017">
 		</div>
 		<div class="column">
-			<img src="images/photos/universal-studios.jpeg">
-			<figcaption class="text">Universal Studios Singapore, October 9, 2017</figcaption>
+			<img class="myImg"
+			src="images/photos/universal-studios.jpeg"
+			alt="Universal Studios Singapore, October 9, 2017">
 		</div>
 		<div class="column">
-			<img src="images/photos/xi-an.jpeg">
-			<figcaption class="text">Xi'an, February 26, 2018</figcaption>
+			<img class="myImg"
+			src="images/photos/xi-an.jpeg"
+			alt="Xi'an, February 26, 2018">
 		</div>
 		<div class="column">
-			<img src="images/photos/ya-an.jpeg">
-			<figcaption class="text">Highwat to Ya'an, August 7, 2018</figcaption>
+			<img class="myImg"
+			src="images/photos/ya-an.jpeg"
+			alt="Highwat to Ya'an, August 7, 2018">
 		</div>
 		<div class="column">
-			<img src="images/photos/campus-point.jpeg">
-			<figcaption class="text">UCSB Campus Point, February 17, 2019</figcaption>
+			<img class="myImg"
+			src="images/photos/campus-point.jpeg"
+			alt="UCSB Campus Point, February 17, 2019">
 		</div>
 		<div class="column">
-			<img src="images/photos/forth-of-july.jpeg">
-			<figcaption class="text">Forth of July, July 4, 2019</figcaption>
+			<img class="myImg"
+			src="images/photos/forth-of-july.jpeg"
+			alt="Forth of July, July 4, 2019">
 		</div>
 	</div>
+
+	<div id="myModal" class="modal">
+		<span class="close">&times;</span>
+		<img class="modal-content" id="img01">
+		<div id="caption"></div>
+	</div>
+
+	<script type="text/javascript" src="js/enlargeImage.js"></script>
 	
 	<button onclick="topFunction()" id="topButton">↑</button>
 	<script src="js/scrollToTop.js"></script>
