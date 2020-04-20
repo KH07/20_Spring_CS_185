@@ -1,10 +1,26 @@
-.nav-bar {
+ul {
 	display: flex;
 	background-color: gray;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
 }
 
-.tab {
+li {
+	float: left;
 	justify-content: space-around;
 	width: 25%;
+}
+
+li a {
+	display: block;
 	padding: 10px;
+	
+}
+
+li a:hover {
+	background-color: lightgray;
+}
+.active-page {
+	background-color: darkgray;
 }
