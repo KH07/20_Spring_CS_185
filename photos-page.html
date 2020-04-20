@@ -2,9 +2,9 @@
 
 <head>
     <title>Photos</title>
-    <link rel="stylesheet" type="text/css" href="css/photos-page.css">
+	<link rel="stylesheet" type="text/css" href="css/photos-page.css">
+	<link rel="stylesheet" type="text/css" href="css/scrollButton.css">
 	<link rel="shortcut icon" type="image/x-icon" href="images/photos-page-icon.png">
-	<script src="js/main.js"></script>
 </head>
 
 <body>
@@ -30,7 +30,7 @@
 
 	<div class="photos-grid">
 		<div class="column">
-			<img src="images/photos/san-diego.jpeg">
+			<img src="images/photos/san-diego.jpeg" oneclick="openModal" class="hover-shadow">
 			<figcaption class="text">La Jolla coast, March 11, 2017</figcaption>
 		</div>
 		<div class="column">
@@ -58,6 +58,9 @@
 			<figcaption class="text">Forth of July, July 4, 2019</figcaption>
 		</div>
 	</div>
+	
+	<button onclick="topFunction()" id="topButton">↑</button>
+	<script src="js/scrollToTop.js"></script>
 
 </body>
 
